@@ -1,10 +1,10 @@
-package Booker;
+package RestfulBooker;
 
 import io.restassured.RestAssured;
 import io.restassured.http.ContentType;
 import org.testng.annotations.Test;
 
-public class CreateBooking {
+public class _001_CreateBooking {
 
     @Test
     public void createBooking(){
